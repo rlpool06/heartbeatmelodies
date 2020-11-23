@@ -3,21 +3,21 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
+    font-family: "Open Sans", sans-serif;
 }
 
 h2 {
-    color: #3046C5;
+    color: #ffffff;
 }
 
 header h2 {
-    color: #CEC8FF;
+    color: #ffffff;
 }
 
-.site-footer {
+/* .site-footer {
     background-image: linear-gradient(#CEC8FF, white);
     padding: 20px 0;
-}
+} */
 
 
 .row-content {
@@ -27,5 +27,5 @@ header h2 {
 }
 
 .navbar {
-    background-color: #eea8ff6c
+    background-color: #f2c4ff
 }
