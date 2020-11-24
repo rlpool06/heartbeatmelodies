@@ -49,3 +49,7 @@ header h2 {
 .jumbotron {
     background: none;
 }
+
+.jumbotron-fluid    {
+    background-color: #f2c4ff8f
+}
