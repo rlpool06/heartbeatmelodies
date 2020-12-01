@@ -7,18 +7,27 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: #ffffff;
+    color: #000000;
 }
 
 header h2 {
     color: #ffffff;
 }
 
+#tagLine    {
+    color: white;
+}
 
 .row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
+    padding: 30px;
+    border-bottom: 1px ridge; border-color: #e392fa8f;
+    min-height: 50px;
+}
+
+
+.row-content2 {
+    padding: 30px;
+    min-height: 50px;
 }
 
 .navbar {
@@ -51,5 +60,28 @@ header h2 {
 }
 
 .jumbotron-fluid    {
-    background-color: #f2c4ff8f
+    background-color: #f2c4ff8f;
 }
+
+.card-body-background   {
+    background-color: #f2c4ff8f;
+}
+
+.card-body-background2  {
+    background-color: #91919196;
+}
+
+.card-img-top   {
+    width: 100%;
+    height: 15vw;
+}
+
+.bgImg {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url("img/IMG_0233.jpg");
+}
+

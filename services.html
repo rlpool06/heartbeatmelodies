@@ -15,24 +15,24 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <title>Heartbeat Melodies: Order</title>
+    <title>Heartbeat Melodies: Services</title>
 </head>
 
-<body>
+<body class="bgImg">
 
-    <nav class="navbar navbar-expand-sm navbar-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="fwdlogos/Heartbeat Melodies WHT logo.png" height="30" width="30"/></a>
-             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar"><span class="navbar-toggler-icon"></span></button>
-                 <div class="collapse navbar-collapse" id="nucampNavbar">
-                     <ul class="navbar-nav ml-auto">
-                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                         <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
-                         <li class="nav-item active"><a class="nav-link" href="services.html">Services</a></li>
-                         <li class="nav-item"><a class="nav-link" href="order.html">Order</a></li>
-                     </ul>
-                 </div>
-         </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="nucampNavbar">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="services.html">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="order.html">Order</a></li>
+                        </ul>
+                    </div>
+        </div>
     </nav>
 
     <div class="jumbotron-fluid">
@@ -41,39 +41,86 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col d-flex justify-content-center mt-3">
-                <h1>Services</h1>
-            </div>
+    <div class="container mt-3">
+        <div class="card card-body-background2">
+            <div class="card-body text-white">
+                <div class="row row-content">
+                    <div class="col d-flex justify-content-center">
+                        <h1><strong>Services</strong></h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-center mt-3">
+                        <h2 class="text-white">How does it work?</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 mt-3 mx-auto">
+                        <p style="text-align: center;">Are you looking for a truly unique way to remember the season of expecting a child?  Let us help you!  We take an audio sample of your baby's heartbeat and turn it into a song!</p>
+                    </div>
+                </div>
+            </div>  
         </div>
-        <div class="row">
-            <div class="col-6"></div>
-                <div class="card" style="width: 18rem;">
-                    <img src="#" class="card-img-top" alt="#">
-                    <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+        <!-- Process Explanation Cards -->
+        <div class="card-deck mt-5">
+            <div class="card">
+                <img src="node_modules/font-awesome/fonts/microphone-solid.svg" class="card-img-top img-fluid" alt="node_modules/font-awesome/fonts/microphone-solid.svg">
+                <div class="card-body card-body-background">
+                    <h5 class="card-title text-center">RECORD THE HEART BEAT</h5>
+                    <p class="card-text text-center">Grab a quick 30-60 second audio recording of your baby's heartbeat. You can do this at your doctor appointment or with an at-home monitor.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="node_modules/font-awesome/fonts/paper-plane-regular.svg" class="card-img-top" alt="node_modules/font-awesome/fonts/paper-plane-regular.svg">
+                <div class="card-body card-body-background">
+                    <h5 class="card-title text-center">SEND IT IN</h5>
+                    <p class="card-text text-center">Fill out our order form and send in your audio sample.  We'll get to work on creating your song!  Once we finish a first draft, we'll send it to you for review and final touches. </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="node_modules/font-awesome/fonts/music-solid.svg" class="card-img-top" alt="node_modules/font-awesome/fonts/music-solid.svg">
+                <div class="card-body card-body-background">
+                    <h5 class="card-title text-center">ENJOY AND SHARE</h5>
+                    <p class="card-text text-center">It's here! It's time to enjoy your song at home, share it with friends, even show it off at your baby shower.</p>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-6 mx-auto d-flex justify-content-center">
+
+        <!-- Soundcloud Examples -->
+        <div class="card card-body-background2 mt-5">
+            <div class="card-body text-white">
+                <div class="row row-content2">
+                    <div class="col text-center">
+                        <h2 class="text-white">Hear Some Examples</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <p>Each one of these songs were written using the unique heartbeat of that child.  Take a listen! </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-content2">
+            <div class="col-8 mx-auto">
                 <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/783834124%3Fsecret_token%3Ds-p0OLYuBjPRq&color=%23e392fa&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
                 <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-6 mx-auto d-flex justify-content-center">
+        <div class="row row-content2">
+            <div class="col-8 mx-auto">
                 <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/783834232%3Fsecret_token%3Ds-G9WYfFKQS0D&color=%23e392fa&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
                 <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-6 mx-auto d-flex justify-content-center">
+        <div class="row row-content2">
+            <div class="col-8 mx-auto">
                 <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/783834253%3Fsecret_token%3Ds-5a01lSOFiLC&color=%23e392fa&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
                 <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
             </div>
         </div>
+
     </div>
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
