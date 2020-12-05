@@ -17,10 +17,10 @@
 </head>
 
 <body class="bgImg">
-
-    <nav class="navbar navbar-expand-sm navbar-dark">
+<!-- Navbar  -->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="fwdlogos/Heartbeat Melodies WHT logo.png" height="30" width="30"/></a>
+            <a class="navbar-brand" href="index.html"><img src="fwdlogos/Heartbeat Melodies WHT logo.png" height="30" width="30"/></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="nucampNavbar">
                         <ul class="navbar-nav ml-auto">
@@ -39,6 +39,7 @@
         </div>
     </div>
 
+    <!-- About Us Card  -->
     <div class="container mt-5">
         <div class="card card-body-background2">
             <div class="card-body text-white">
@@ -61,33 +62,40 @@
             </div>
         </div>    
 
+        <!-- Testionials Card  -->
+        <div class="row row-content mt-5">
+            <div class="col text-center">
+                <h2>Testimonials</h2>
+                <p>See what people are saying about us!</p>
+            </div>
+        </div>
+
+        <!-- Testimonial Carousel  -->
         <div class="row row-content2">
             <div class="col-md-8 mx-auto">
-                <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+                <div id="homeCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="9000">
                     <ol class="carousel-indicators">
                         <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#homeCarousel" data-slide-to="1"></li>
                         <li data-target="#homeCarousel" data-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="css/img/IMG_9375.jpeg" alt="McPherson's">
+                        <div class="carousel-item overlay active">
+                            <img class="d-block w-100 overlay" src="css/img/IMG_9375.jpg" alt="McPhersons">
                             <div class="carousel-caption">
                                 <p class="d-none d-sm-block">"We are so thankful for the beautiful song Ryan created with our son’s heartbeat. He captured the prayers we had for Leon’s life using his musical talent and turned it into something we will cherish forever."</p>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="img/react-lake.jpg" alt="React Lake Campground">
+                        <div class="carousel-item overlay">
+                            <img class="d-block w-100" src="css/img/B89A7161.jpeg" alt="Hootens">
                             <div class="carousel-caption">
-                                <h3>React lake Campground</h3>
-                                <p class="d-none d-sm-block"> Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers. </p>
+                                <p class="d-none d-sm-block">"This song is so special to our family! Ryan asked detailed questions in order to make ours super personalized to our son Miller. Still get emotional listening to it even now as he’s almost a year, remembering hearing it for the first time in such a weird season of waiting for him to arrive. It was seriously a gift, and one we can cherish for a long time!"</p>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="img/chrome-river.jpg" alt="Chrome River Campground">
+                        <div class="carousel-item overlay">
+                            <img class="d-block w-100" src="css/img/IMG_0017.JPG" alt="Chrome River Campground">
                             <div class="carousel-caption">
-                                <h3>Chrome River Campground</h3>
-                                <p class="d-none d-sm-block"> Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River. </p>
+                                <p class="d-none d-sm-block">“The songs created for our two little girls by Heartbeat Melodies will be cherished for a lifetime, and not just by us, but by grandparents, siblings, and even our girls as they grow older. Such a sweet way to be able to continuously listen to their little heartbeats over and over again and remember the blessing these girls are, by having it put to a song uniquely written for each one of them. I could not recommend Heartbeat Melodies enough!”</p>
                             </div>
                         </div>
                     </div>
@@ -99,39 +107,9 @@
                         <span class="carousel-control-next-icon"></span>
                         <span class="sr-only"> Next </span>
                     </a>
-                    <button class="btn btn-danger btn-sm" id="carouselButton">
-                        <i class="fa fa-pause"></i>
-                    </button>
                 </div>
             </div>
         </div>
-
-    <!-- <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 col-sm-2 offset-1">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="aboutus.html">About</a></li>
-                        <li><a href="#">Sites</a></li>
-                        <li><a href="contactus.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-sm-5 text-center">
-                    <h5>Social</h5>
-                    <a href="http://instagram.com/"><i class="fa fa-instagram"></i> Instagram</a>
-                    <a href="http://facebook.com/"><i class="fa fa-facebook"></i> Facebook</a>
-                    <a href="http://twitter.com/"><i class="fa fa-twitter"></i> Twitter</a>
-                    <a href="http://youtube.com/"><i class="fa fa-youtube"></i> YouTube</a>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone fa-lg text-primary"></i> Tel: 1-206-555-1234 </a><br />
-                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope fa-lg text-primary"></i> Email: campsites@nucamp.co </a>
-                </div>
-            </div>
-        </div>
-    </footer> -->
 
 <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
